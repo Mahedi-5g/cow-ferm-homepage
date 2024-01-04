@@ -1,0 +1,86 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+
+ *{margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+  
+ }
+
+.design{
+    color: red;
+    background-image: url(anand-thakur-y0dSeflqUWo-unsplash.jpg);
+    height: 100vh;
+    background-position: bottom center;
+    background-size: cover;
+   
+    background-repeat: no-repeat;
+    clip-path: polygon(50% 0%, 100% 0, 100% 70%, 49% 100%, 0 70%, 0 0);
+}
+.design h1{
+    color: azure;
+    font-size: 100px;
+    text-align: center;
+    font-weight: 900;
+    padding-top: 50px;
+    font-family: cursive;
+    letter-spacing:15px;
+    word-spacing:20px ;
+}
+.artical{
+    width: 80%;
+    margin: 60px auto;
+    background-color: aqua;
+    padding:50px ;
+    border-width:15px ;
+    border-color: rgb(185, 134, 232);
+    border-style: groove;
+    border-radius: 10px;
+    background: linear-gradient(rgb(231, 172, 182),rgb(105, 105, 187));
+}
+.artical h2{
+    text-align: center;
+    font-size: 30px;
+    color: darkgreen;
+    margin-bottom: 10px;
+    border-bottom: 2px; 
+      border-width:5px ;
+    border-color: rgb(134, 232, 146);
+    border-style: groove;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    padding-bottom: 5px;
+}
+.artical p{
+    font-size:15px ;
+}
+.artical p .big{
+    font-size:25px ;
+    color: rgb(210, 19, 156);
+}
+.small{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(186, 125, 11);
+    margin-bottom: 30px;
+    border-bottom: 2px; 
+      border-width:5px ;
+    border-color: rgb(134, 232, 146);
+    border-style: groove;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    padding-bottom: 10px;
+}
+.cow images{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    gap: 10pxpx;
+    margin: 10px;
+   
+}
+.color{ background: linear-gradient(45deg, rgb(233, 178, 187),rgb(112, 112, 179));
+
+}
