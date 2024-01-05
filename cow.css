@@ -6,7 +6,13 @@
     font-family: 'Lato', sans-serif;
   
  }
-
+ nav>ul>li{
+    display: inline;
+    margin-right: 15px;
+ }
+nav>li{
+    text-decoration:none;
+}
 .design{
     color: red;
     background-image: url(anand-thakur-y0dSeflqUWo-unsplash.jpg);
@@ -107,4 +113,8 @@
 .parent img {
     width: 100%;
     height: 100%;
+}
+footer{
+    margin-top: 10px;
+    text-align: end;
 }
